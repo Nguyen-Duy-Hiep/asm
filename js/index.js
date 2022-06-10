@@ -35,7 +35,7 @@ function showContents(contents){
         result += `
         <div class="md:grid md:grid-cols-2">
 			<div class="mx-4 mt-6">
-				<a href="work.html"><img
+				<a href="./html/work.html"><img
 						src="${content.img}"
 						alt="" class="w-full"/></a>
 			</div>
