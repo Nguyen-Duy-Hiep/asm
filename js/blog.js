@@ -41,7 +41,7 @@ function showContents(contents){
     for(let i = 0; i < contents.length; i++){
         const content = contents[i];
         result += `
-        <div class="mt-4">
+        <div class="mt-4 ">
                 <a href=""><h3 class="text-[26px] font-bold text-[#21243D]">${content.title}</h3></a>
                 <div class="flex mt-1">
                 <p class="text-[#21243D] text-[16px]">${content.time}</p>

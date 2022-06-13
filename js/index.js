@@ -33,7 +33,7 @@ function showContents(contents){
     for(let i = 0; i < contents.length; i++){
         const content = contents[i];
         result += `
-        <div class="md:grid md:grid-cols-2">
+        <div class="md:grid md:grid-cols-[400px_auto]">
 			<div class="mx-4 mt-6">
 				<a href="./html/work.html"><img
 						src="${content.img}"
